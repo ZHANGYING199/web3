@@ -1,0 +1,116 @@
+{
+	"compiler": {
+		"version": "0.8.27+commit.40a35a09"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "callFunc",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "callFuncWithKeyValue",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "x",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "y",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "z",
+						"type": "uint256"
+					},
+					{
+						"internalType": "address",
+						"name": "a",
+						"type": "address"
+					},
+					{
+						"internalType": "bool",
+						"name": "b",
+						"type": "bool"
+					},
+					{
+						"internalType": "string",
+						"name": "c",
+						"type": "string"
+					}
+				],
+				"name": "someFuncWithManyInputs",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/function.sol": "XYZ"
+		},
+		"evmVersion": "cancun",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/function.sol": {
+			"keccak256": "0xb490c5bc4d046925d1b4b8a9546ade9e069bcfa8e8f5f9dfa5cda90c512ff7d8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://f5c31af7cc83d92548dfd5cc95712df141e0af9163d55de4fa42d686d6b83133",
+				"dweb:/ipfs/QmWe9PfhkYDiUwV5YVL1GWojqCqMyujGF4Qs2Z9SWtKobC"
+			]
+		}
+	},
+	"version": 1
+}

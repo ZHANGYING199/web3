@@ -1,0 +1,139 @@
+{
+	"id": "445415741074d3e054fb605dd91be19c",
+	"_format": "hh-sol-build-info-1",
+	"solcVersion": "0.8.27",
+	"solcLongVersion": "0.8.27+commit.40a35a09",
+	"input": {
+		"language": "Solidity",
+		"sources": {
+			"contracts/StructDeclaration.sol": {
+				"content": "// SPDX-License-Identifier: MIT\r\npragma solidity ^0.8.24;\r\n\r\n\r\nstruct Todo {\r\n    string _text;\r\n    bool completed;\r\n}"
+			}
+		},
+		"settings": {
+			"optimizer": {
+				"enabled": false,
+				"runs": 200
+			},
+			"outputSelection": {
+				"*": {
+					"": [
+						"ast"
+					],
+					"*": [
+						"abi",
+						"metadata",
+						"devdoc",
+						"userdoc",
+						"storageLayout",
+						"evm.legacyAssembly",
+						"evm.bytecode",
+						"evm.deployedBytecode",
+						"evm.methodIdentifiers",
+						"evm.gasEstimates",
+						"evm.assembly"
+					]
+				}
+			},
+			"remappings": []
+		}
+	},
+	"output": {
+		"sources": {
+			"contracts/StructDeclaration.sol": {
+				"ast": {
+					"absolutePath": "contracts/StructDeclaration.sol",
+					"exportedSymbols": {
+						"Todo": [
+							6
+						]
+					},
+					"id": 7,
+					"license": "MIT",
+					"nodeType": "SourceUnit",
+					"nodes": [
+						{
+							"id": 1,
+							"literals": [
+								"solidity",
+								"^",
+								"0.8",
+								".24"
+							],
+							"nodeType": "PragmaDirective",
+							"src": "33:24:0"
+						},
+						{
+							"canonicalName": "Todo",
+							"id": 6,
+							"members": [
+								{
+									"constant": false,
+									"id": 3,
+									"mutability": "mutable",
+									"name": "_text",
+									"nameLocation": "89:5:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 6,
+									"src": "82:12:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_string_storage_ptr",
+										"typeString": "string"
+									},
+									"typeName": {
+										"id": 2,
+										"name": "string",
+										"nodeType": "ElementaryTypeName",
+										"src": "82:6:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_string_storage_ptr",
+											"typeString": "string"
+										}
+									},
+									"visibility": "internal"
+								},
+								{
+									"constant": false,
+									"id": 5,
+									"mutability": "mutable",
+									"name": "completed",
+									"nameLocation": "106:9:0",
+									"nodeType": "VariableDeclaration",
+									"scope": 6,
+									"src": "101:14:0",
+									"stateVariable": false,
+									"storageLocation": "default",
+									"typeDescriptions": {
+										"typeIdentifier": "t_bool",
+										"typeString": "bool"
+									},
+									"typeName": {
+										"id": 4,
+										"name": "bool",
+										"nodeType": "ElementaryTypeName",
+										"src": "101:4:0",
+										"typeDescriptions": {
+											"typeIdentifier": "t_bool",
+											"typeString": "bool"
+										}
+									},
+									"visibility": "internal"
+								}
+							],
+							"name": "Todo",
+							"nameLocation": "70:4:0",
+							"nodeType": "StructDefinition",
+							"scope": 7,
+							"src": "63:56:0",
+							"visibility": "public"
+						}
+					],
+					"src": "33:86:0"
+				},
+				"id": 0
+			}
+		}
+	}
+}
